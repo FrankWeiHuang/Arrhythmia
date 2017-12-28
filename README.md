@@ -37,14 +37,14 @@ Linux 系統, 支援 Shell script 可以安裝 WFDB 工具
 
 由於記憶體有限，搜尋將導致緩慢
 
-![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/searh.png)
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/search.png)
 
 搜尋完成後，畫面將個別顯示每個所選的紀錄之心電波形圖
 
 包含 v1 與 MLII 兩種輸入源
 
-![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/result.png)
-![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/result.png)
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/result_1.png)
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/result_2.png)
 
 #### 資料庫內容
 
