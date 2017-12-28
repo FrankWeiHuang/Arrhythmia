@@ -10,7 +10,7 @@
 
 (選用)
 圖形化 SQL 介面, 例如: MySQL Workbench
-Linux 系統, 支援 Shell script 可以安裝 WFDB 工具 
+Linux 系統, 支援 Shell script 可以安裝 WFDB 工具
 
 #### 安裝步驟
 請先下載 Github 上所有的檔案，並將 arrhythmia 專案放上您的 `www` 目錄內
@@ -22,8 +22,12 @@ Linux 系統, 支援 Shell script 可以安裝 WFDB 工具
 完成後請開啟您的瀏覽器 (chrome、firefox)，輸入`localhost:prot/arrhythmia`
 即可開始登入。
 
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/login.png)
+
 可以使用預設 Username: peter Password: 123 進行登入測試
 或點擊註冊紐新建一個 User
+
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/register.png)
 
 登入系統後，請您按住 Control 紐，進行下拉式紀錄選單多選
 
@@ -33,9 +37,14 @@ Linux 系統, 支援 Shell script 可以安裝 WFDB 工具
 
 由於記憶體有限，搜尋將導致緩慢
 
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/searh.png)
+
 搜尋完成後，畫面將個別顯示每個所選的紀錄之心電波形圖
 
 包含 v1 與 MLII 兩種輸入源
+
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/result.png)
+![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/image/result.png)
 
 #### 資料庫內容
 
