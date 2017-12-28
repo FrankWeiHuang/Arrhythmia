@@ -3,8 +3,8 @@ require_once("connect.php");
 $connect = new connect();
 
 // 檢查是否已有登入者，若有則不允許註冊，需先登出
-if ($connect->checkAuth()) {
-  echo "alert('請先登出目前的使用者，再行註冊!')";
+if ($connect->checkAuth() != null) {
+  $error = "請先登出目前的使用者，再行註冊!'";
   header("location: index.php");
 }
 
