@@ -1,5 +1,9 @@
 ## MIT-BIH  心律不整 公開資料庫 Web 實作範例
 
+附上 hosting 的測試網頁，建議使用 firefox 操作
+chrome 對於安全性要求提高，以及過久的資料回應會出現錯誤
+`http://188.166.179.9/arrhythmia/server`
+
 #### 資料來源
 本資料使用 MIT-BIH 公開資料，並使用 PhysioBank 提供之工具 WFDB
 下載 48 個 csv 檔案並匯入至資料庫
