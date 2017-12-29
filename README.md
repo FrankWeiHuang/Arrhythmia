@@ -23,15 +23,15 @@ Linux 系統, 支援 Shell script 可以安裝 WFDB 工具
 #### 安裝步驟
 請先下載 Github 上所有的檔案，並將 arrhythmia 專案放上您的 `www` 目錄內
 
-請先創建一個愈置放資料的資料庫
-將 `import` 目錄內的 49 個SQL檔案，手動匯入資料庫
+請先創建一個愈置放資料的資料庫，並命名為 memberdb
+將 `import` 目錄內的 49 個SQL檔案，手動匯入 memberdb 資料庫
 ![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/images/import.png)
 ![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/images/dbinfo.png)
 ![image](https://github.com/FrankWeiHuang/Arrhythmia/blob/master/images/tableinfo.png)
 
 
 
-請進入 `arrhythmia/server/connect.php` 內 17 行處，更改您的資料庫主機、帳號、密碼、資料庫名稱
+請進入 `arrhythmia/server/connect.php` 內 17 行處，更改您的資料庫主機、帳號、密碼、資料庫名稱 (資料庫名稱可不動)
 
 完成後請開啟您的瀏覽器 (chrome、firefox)，輸入`localhost:prot/arrhythmia`
 即可開始登入。
